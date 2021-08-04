@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  background-color: black;
+  background-size: cover;
+}
+.style {
+  list-style: none;
+  padding: 0;
+}
+.style li {
+  display: inline;
+}
+.background {
+  background-color: rgba(240, 248, 255, 0.8);
+  margin: 30px 300px;
+}
