@@ -1,16 +1,101 @@
 body {
-  text-align: center;
-  background-color: black;
+  background-image: url('../images/background.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  width: 100%;
 }
-.style {
-  list-style: none;
-  padding: 0;
+
+.custom-navbar {
+  background-color: #000000;
+  text-align: center;
+  text-decoration: none;
+  color: #edf2ef;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
 }
-.style li {
-  display: inline;
+
+.navbar-btn {
+  color: #edf2ef;
+  font-family: 'Fugaz One', cursive;
+  font-size: 35px;
 }
-.background {
-  background-color: rgba(240, 248, 255, 0.8);
-  margin: 30px 300px;
+
+.navbar-btn:hover {
+  color: #ffd400;
+  transition: 0.5s;
+}
+
+.wellcome {
+  margin: 5vh 0vh;
+  font-family: 'Fugaz One', cursive;
+  text-align: center;
+  text-shadow: 2px 2px #0000004a;
+}
+
+.card-hello {
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 3px solid #000000;
+  border-left: 0px;
+  color: #edf2ef;
+
+}
+
+.card-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 3px solid #000000;
+  border-left: 0px;
+  color: #edf2ef;
+  margin-right: 20px;
+}
+
+.img-perfil {
+  display: flex;
+  border: 10px solid #000000;
+  border-width: medium;
+  vertical-align: middle;
+}
+
+#card-text {
+  text-align: start;
+  font-family: 'Fugaz One', cursive;
+  text-shadow: 2px 2px #000000;
+}
+
+#card-text p {
+  font-size: 21px;
+  text-align: justify;
+}
+
+#about-text {
+  text-align: justify;
+}
+
+.card-contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.background-icon {
+  background-color: #000000;
+  border-radius: 50%;
+  padding: 2rem;
+  text-align: center;
+}
+
+#icon-social {
+  font-size: 100px;
+  border-radius: 50%;
+  color: #edf2ef;
+}
+
+#icon-social:hover{
+  color: #ffd400;
+  transition: 0.5s;
 }
